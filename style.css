@@ -1,0 +1,572 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Bree Serif", serif;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;  /* Ensures the body takes full width */
+}
+nav{
+    margin: 0px;
+    position: relative;
+    /* background-color: aliceblue; */
+    overflow: hidden;
+}
+.nav{
+     display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    flex-wrap: wrap;
+    font-size: 2vw;
+    overflow: hidden;
+    padding: 1.2vw 2vw;
+}
+.ri-home-heart-fill{
+  
+    overflow: hidden;
+
+}
+.more{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0vw 1.2vw;
+    gap: 2vw;
+    font-size: 1.5vw;
+}
+.ri-menu-line{
+    display: none;
+}
+.background{
+    background-image: url(ubaid-e-alyafizi-UEmVqCexTsU-unsplash.jpg);
+    height: 80vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content{
+    position: relative;
+    top: 50%;
+    left: 69%;
+    transform: translate(-50%,-50%);
+    padding: 3vw 1.2vw;
+}
+.content h2{
+    font-size: 3vw;
+    line-height: 3vw;
+}
+h3{
+font-size: 2vw;
+}
+button{
+    height: 5vw;
+    width: 18vw;
+    font-size: 2vw;
+    background-color: transparent;
+    border-radius: 3px;
+    position: relative;
+    top: 90%;
+    left: 30%;
+    transform: translate(-50%,33%);
+   
+}
+.second{
+   background-color: #7f5539; 
+   height:70vw;
+   width: 100vw;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+h1{
+    padding-left: 1.2vw;
+    padding-top: 1vw;
+}
+.boxes{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.first1{
+    background-color: beige;
+    height: 25vw;
+    margin: 3vw;
+     width: 25vw;
+    
+}
+
+.first2{
+    background-color:antiquewhite;
+        width:25vw;
+        height: 25vw;
+        margin: 3vw;
+}
+.first3{
+    background-color:blanchedalmond;
+       margin: 3vw;
+       height: 25vw;
+           width: 25vw;
+           display: flex;
+           flex-wrap: wrap;
+           align-items: center;
+           justify-content: space-evenly;
+}
+.box1{
+    background-image:url(first1.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15vw;
+    margin: 3vw;
+     width: 20vw;
+     padding-right: 5vw;
+}
+.box1:hover{
+  margin: 4vw;
+} 
+.box2:hover{
+    margin: 4vw;
+} 
+.box3:hover{
+    margin: 4vw;
+} 
+.box2{
+    background-image:url(first2.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15vw;
+    margin: 3vw;
+     width: 20vw;
+     padding-right: 5vw;
+}
+.box3{
+    background-image:url(juliana-uribbe-LGPnpdPDG_M-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 16vw;
+    margin: -2vw;
+     width: 20vw;
+    padding-right: 5vw;
+   margin-bottom: 1.2vw;
+}
+.second h2{
+    position: relative;
+    top: 16vw;
+}
+.boxes2{
+    background-color: blanchedalmond;
+    height: 35vw;
+    width: 95vw;
+   padding-top: 2vw;
+    margin-left: 2vw;
+    color: rgb(68, 62, 62);
+box-sizing: border-box;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0px -3px;
+}
+.images img{
+    width: 20vw;
+    height: 17vw;
+    border: 2px solid white;
+}
+.boxe3{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+  
+  }
+.boxe3 img{
+    height: 2vw;
+    width: 3vw;
+    color: rgb(68, 62, 62);
+}
+.img1{
+    position: relative;
+    left: 19vw;
+  
+}
+.img2{
+    position: relative;
+    left: 42vw;
+}
+.img3{
+    position: relative;
+   left: 61vw;
+}
+.img4{
+    position: relative;
+  left: 84vw;
+}
+.dis1{
+    text-decoration: line-through;
+    position: relative;
+    left: 8vw;
+    font-size: 2vw;
+    font-weight: 600;
+    color: rgb(68, 62, 62);
+}
+.price1{
+position:relative;
+left: 15vw;
+color: rgb(68, 62, 62);
+}
+.btn1 {
+    height: 3vw;
+    width: 9vw;
+   
+    position: relative;
+   left: 2.5vw;
+   top: 1.5vw;
+}
+.btn1:hover{
+    background-color: #7f5539;
+    cursor: pointer;
+}
+.dis2{
+    text-decoration: line-through;
+    position: relative;
+    left: 33vw;
+    font-size: 2vw;
+    font-weight: 600;
+    color: rgb(68, 62, 62);
+}
+.price2{
+position:relative;
+left: 38vw;
+color: rgb(68, 62, 62);
+}
+.btn2{
+    height: 3vw;
+    width: 9vw;
+    position: relative;
+    left: 3.5vw;
+   top: 1.5vw;
+}
+.dis3{
+    text-decoration: line-through;
+    position: relative;
+    left: 52vw;
+    font-size: 2vw;
+    font-weight: 600;
+    color: rgb(68, 62, 62);
+}
+.price3{
+    position: relative;
+    left: 57vw;
+    color: rgb(68, 62, 62);
+}
+.btn3{
+    height: 3vw;
+    width: 9vw;
+    position: relative;
+    left: 4.5vw;
+   top: 1.5vw;
+}
+.dis4{
+    text-decoration: line-through;
+    position: relative;
+    left: 75vw;
+    font-size: 2vw;
+    font-weight: 600;
+    color: rgb(68, 62, 62);
+}
+.price4{
+    position: relative;
+    left: 80vw;
+    color: rgb(68, 62, 62);
+}
+.btn4{
+    height: 3vw;
+    width: 9vw;
+    position: relative;
+    left: 4.5vw;
+    top: 1.5vw;
+}
+.btn2:hover{
+    background-color: #7f5539;
+    cursor: pointer;
+}
+.btn3:hover{
+    background-color: #7f5539;
+    cursor: pointer;
+}
+.btn4:hover{
+    background-color: #7f5539;
+    cursor: pointer;
+}
+.next{
+    background-color: #7f5539;
+    height: 45vw;
+    width: 100vw;
+    position: relative;
+   
+}
+.circle{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+ 
+  text-align: center;
+  position: relative;
+  transition: all 0.5s ease ;
+  margin-left: 35vw;
+  padding-top: 2vw;
+}
+.circle1{
+    height: 12vw;
+    width: 12vw;
+    border-radius: 50%;
+    border: 5px solid blanchedalmond;
+    background-color: #7f5539;
+    /* margin-left: 15vw; */
+    z-index: 2;
+    transition: all 0.5s ease ;
+}
+.circle img{
+  height: 9.5vw;
+  width: 9.5vw;
+  position: absolute;
+  right: 55vw;
+  z-index: 3;
+}
+.inside_next{
+    height: 14vw;
+    width: 14vw;
+}
+.circle1:hover {
+  border-radius: 7px;
+  width: 41vw;
+    transition: all 0.5s ease;
+}
+.circle1:hover + .circleimg{
+   display: flex;
+   float: left;
+   height: 10vw;
+   width: 10vw;
+   align-self: flex-start;
+}
+.circleh1{
+    opacity: 0; /* Initially hidden */
+    color: black; /* Set text color */
+    transition: opacity 0.5s ease;
+}
+.down{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    position: absolute;
+    height: 4vw;
+    bottom: 0vw;
+}
+.circle1:hover .circleh1{
+    opacity: 1;
+    color: black;
+    font-weight: 500;
+    position: relative;
+    left: 4vw;
+}
+.circle1:hover  .down{
+    opacity: 1;
+    top: 47%;
+    left: 26vw;
+}
+.last{
+    background-color: #4a3426;
+    height: 20vw;
+    overflow-y: hidden;
+    width: 100vw;
+    display: flex;
+}
+.first_last{
+    font-size: 1.5vw;
+    font-weight: 300;
+    position: relative;
+    left: 35%;
+    top: 5vw;
+    color: blanchedalmond;
+    opacity: 0.5;
+}
+.second_last{
+    font-size: 1.5vw;
+    font-weight: 300;
+    position: relative;
+    left: 45%;
+    opacity: 0.5;
+    top: 5vw;
+    color: blanchedalmond;
+}
+.third_last{
+    font-size: 1.5vw;
+    font-weight: 300;
+    position: relative;
+    left: 25%;
+    opacity: 0.5;
+    top: 15vw;
+    color: blanchedalmond;
+}
+@media screen and (max-width: 2000px){
+    .price1,.price2,.price3,.price4{
+        left: 5vw;
+    }
+    .dis1,.dis2,.dis3,.dis4{
+        left: 5vw;
+       }
+       .img1,.img2,.img3,.img4{
+        left: -6vw;
+        } 
+}
+@media screen and (max-width: 1000px){
+    .price1,.price2,.price3,.price4{
+        left: 4vw;
+    }
+    .dis1,.dis2,.dis3,.dis4{
+       left: 4vw;
+      }
+    .img1,.img2,.img3,.img4{
+        left: -7vw;
+        }
+        .second h2{
+            font-size: 2vw;
+          }
+          .circleh1{
+            font-size: 2.5vw;
+        }
+}
+@media screen and (max-width: 600px){
+    .background{
+        height: 35vh;
+    }
+    .second h1{
+        font-size: 4vw;
+    }
+    .second h2{
+        font-size: 2vw;
+    }
+    .dis2,.dis3,.dis4{
+        top: 1vw;
+      left: 5.5vw;
+    }
+    .dis1{
+        top: 1vw;
+        left: 5vw;
+    }
+    .price1,.price2,.price3,.price4{
+        top: 1vw;
+        left: 5vw;
+    }
+    .img1,.img2,.img3,.img4{
+        left: -6vw;
+    }
+    .boxe3 img{
+        height: 3.5vw;
+        width: 3.5vw;
+    }
+    .btn1,.btn2,.btn3,.btn4{
+        top: 3vw;
+        height: 5.5vw;
+        left: 1.5vw;
+    }
+      .circleh1{
+        font-size: 2vw;
+    }  
+}
+@media screen and (max-width: 400px){
+  .more{
+    display: none;
+  }
+  .ri-menu-line{
+    display: flex;
+  }
+  .background{
+    width: 100%; 
+    height: 40vh; 
+    padding: 0px;
+    margin: 0px; 
+    background-size: cover; 
+    background-position: center;
+  }
+  .nav{
+   font-size: 4vw;
+  }
+  .content{
+    font-size: 3vw;
+  }
+  button{
+font-weight: 800;
+  }
+  .second h1{
+   font-size: 5vw;
+  }
+  .second h2{
+    font-size: 3vw;
+  }
+ .first1,.first2,.first3{
+    height: 30vw;
+ }
+ .box3{
+   position: relative;
+   bottom: 1vw;
+ }
+ .boxes2{
+    height: 35vw;
+ }
+ .dis1,.dis2,.dis3,.dis4{
+   top: 0.5vw;
+  left: 3vw;
+  font-size: 2.5vw;
+ }
+ .price1,.price2,.price3,.price4{
+    top: 0.7vw;
+    left: 4vw;
+    font-size: 2vw;
+ }
+ .circle1{
+    border:2px solid blanchedalmond;
+ }
+.circleh1{
+    font-size: 3vw;
+}
+.boxe3 img{
+    width: 3vw;
+    height: 3vw;
+}
+.img1,.img2,.img3{
+left: -7vw;
+}
+.img4{
+    left: 42vw;
+    bottom: 5vw;
+}
+.down{
+    font-size:1.5vw;
+    font-weight: 200;
+}
+.first_last,.second_last,.third_last{
+    font-size: 2vw;
+    font-weight: 100;
+}
+.btn1,.btn2,.btn3,.btn4{
+    height: 4.5vw;
+    width: 10vw;
+    left: 1vw;
+    top: 2vw;
+    font-weight: 100;
+    font-size: 2vw;
+}
+
+
+
+}
